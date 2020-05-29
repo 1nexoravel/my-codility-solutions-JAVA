@@ -20,24 +20,25 @@ that, given an array A of N integers, returns the smallest positive integer (gre
 */
 import java.util.Arrays;
 
-public class MissingInteger {
+public class L4_MissingInteger {
     public static void main(String[] args) {
+        Solution_MI s = new Solution_MI();
         int A[] =  {1, 3, 6, 4, 1, 2};
         System.out.println("A = [1, 3, 6, 4, 1, 2]");
-        System.out.println(Solution.solution(A));
+        System.out.println(s.solution(A));
 
         int B[] = {1, 2, 3};
         System.out.println("A = [1, 2, 3]");
-        System.out.println(Solution.solution(B));
+        System.out.println(s.solution(B));
 
         int C[] = {-1, -3};
         System.out.println("A = [−1, −3]");
-        System.out.println(Solution.solution(C));
+        System.out.println(s.solution(C));
 
     }
 }
-class Solution {
-    public static int solution(int[] A) {
+class Solution_MI {
+    public int solution(int[] A) {
         int b = 1;
         Arrays.sort(A);
         for (int k = 0 ; k < A.length ; k++) {
