@@ -1,14 +1,14 @@
 public class L1_BinaryGap {
     public static void main(String[] args) {
         Solution_BG S = new Solution_BG();
-        System.out.println(S.solution(328) + "->2");
-        System.out.println(S.solution(51712) + "->2");
-        System.out.println(S.solution(32) + "->0");
-        System.out.println(S.solution(1041) + "->5");
-        System.out.println(S.solution(15) + "->0");
+        System.out.println(S.solution(328) + " == 2");
+        System.out.println(S.solution(51712) + " == 2");
+        System.out.println(S.solution(32) + " == 0");
+        System.out.println(S.solution(1041) + " == 5");
+        System.out.println(S.solution(15) + " == 0");
 
-        System.out.println(S.solution(561892) + "->3");
-        System.out.println(S.solution(74901729) + "->4");
+        System.out.println(S.solution(561892) + " == 3");
+        System.out.println(S.solution(74901729) + " == 4");
 
     }
 }
