@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class L2_OddOccurrencesInArray_66 {
+public class L2_OddOccurrencesInArray_66 { //ano que vem eu volto aqui
     public static void main(String[] args) {
         Solution_OOIA s = new Solution_OOIA();
         //int A[] = {2, 2, 3, 3, 4};
