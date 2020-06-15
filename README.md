@@ -12,7 +12,7 @@
 | Lesson 4 | ? | ? | FrogRiverOne
 | Lesson 4 | ? | ? | MaxCounters
 | Lesson 4 | 100% | O(N) or O(N log(N))  | MissingInteger
-| Lesson 4 | 91%  | O(N) or O(N log(N))  | PermCheck
+| Lesson 4 | 100%  | O(N) or O(N log(N))  | PermCheck
 
 Legenda: 
 ? = não entendi o exercício.
